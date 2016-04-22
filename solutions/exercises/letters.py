@@ -1,10 +1,15 @@
-# ask the user for a word and print the length of the word.
-# exit when the user types 'EXIT', and print 'Done!' when finished
+# word = raw_input('Enter a word: ')
+# while word.lower() != 'exit':
+#     print len(word)
+#     word = raw_input('Enter a word: ')
+#
+# print('Goodbye!')
 
+word = ''
 while True:
-  word = raw_input("Enter a word (type EXIT to quit): ")
-  if word == 'EXIT':
-    break
-  print len(word)
+    word = raw_input('Enter a word: ')
+    if word.lower() == 'exit':
+        break
+    print len(word)
 
-print "Done!"
+print('Goodbye!')

@@ -5,7 +5,6 @@
 # pip install pattern
 import csv
 import numpy
-from pattern.en import sentiment
 
 # create a list to store our data
 all_data = []
@@ -19,7 +18,6 @@ with open('seahawks.csv') as seahawks_file:
     all_data.append(float(entry[1]))
 
 all_data = [s for s in all_data if s != 0.0]
-print(all_data)
 
 # print all_data
 # print the mean, median, max, and min of the sentiments
