@@ -1,8 +1,7 @@
 # sentiment analysis of tweets
 
-# import packages (may have to install numpy and pattern using pip)
+# import packages (may have to install numpy using pip)
 # pip install numpy
-# pip install pattern
 import csv
 import numpy
 
@@ -25,3 +24,7 @@ print('Mean: {}'.format(numpy.mean(all_data)))
 print('Median: {}'.format(numpy.median(all_data)))
 print('Max: {}'.format(numpy.amax(all_data)))
 print('Min {}'.format(numpy.amin(all_data)))
+
+# Note that the sentiment values were included in the document. There's a
+# handy Python package called pattern that can be used to obtain these values.
+# Try researching it and use it on your own projects
